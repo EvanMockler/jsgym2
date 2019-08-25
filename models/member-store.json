@@ -1,0 +1,26 @@
+{
+  "memberCollection": [
+    {
+      "name": "Tony Stark",
+      "gender": "Male",
+      "email": "tony@stark.com",
+      "password": "",
+      "address": "New York",
+      "height": 1.75,
+      "startingWeight": 85,
+      "id": "6e638250-0fec-4f8b-811f-76a5b4474204",
+      "assessments": [
+        {
+          "id": "352370e0-b9d3-476c-b357-1871fca2922a",
+          "weight": "90",
+          "chest": "42",
+          "thigh": 22,
+          "upperArm": 20,
+          "waist": 40,
+          "hips": 42,
+          "comment": "  shit"
+        }
+      ]
+    }
+  ]
+}

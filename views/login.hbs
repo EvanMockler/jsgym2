@@ -1,0 +1,19 @@
+{{> welcomemenu id='login' }}
+
+<div class="ui two column middle aligned grid basic segment">
+  <div class="column">
+    <form class="ui stacked segment form" action="/authenticate" method="POST">
+      <h3 class="ui header">Log-in</h3>
+      <div class="field">
+        <label>Email</label> <input placeholder="Email" name="email">
+      </div>
+      <div class="field">
+        <label>Password</label> <input type="password" name="password">
+      </div>
+      <button class="ui blue submit button">Login</button>
+    </form>
+  </div>
+  <div class="column">
+    <img src="https://cdn.glitch.com/99acd135-2e3e-48e0-9427-ff80df5d58f0%2Fabout.jpg?v=1565437956493" width = "545">
+  </div>
+</div>

@@ -1,0 +1,45 @@
+{{> menu id="settings"}}
+
+<div class="ui two column grid basic middle aligned segment">
+  <div class="column">
+    <form class="ui segment form" action="/update/{{member.id}}" method="POST">
+      <h3 class="ui header">Update Account Details</h3>
+      <div class="two fields">
+        <div class="field">
+          <label>Name</label>
+          <input value="{{member.name}}" type="text" name="name"> 
+        </div>
+        <div class="field">
+          <label>Gender</label>
+          <input value="{{member.gender}}" type="text" name="gender">
+        </div>
+      </div>
+      <div class="field">
+        <label>Email</label>
+        <input value="{{member.email}}" type="text" name="email">
+      </div>
+      <div class="field">
+        <label>Password</label>
+        <input type="password" name="password">
+      </div>
+      <div class="field">
+        <label>Address</label>
+        <input value="{{member.address}}" type="text" name="address">
+      </div>  
+      <div class="two fields">
+        <div class="field">
+          <label>Height</label>
+          <input value="{{member.height}}" type="text" name="height"> 
+        </div>
+        <div class="field">
+          <label>Starting Weight</label>
+          <input value="{{member.startingWeight}}" type="text" name="startingWeight">
+        </div>
+      </div>
+      <button class="ui blue submit button">Submit</button>
+    </form>
+  </div>
+  <div class="column">
+    <img src="https://cdn.glitch.com/99acd135-2e3e-48e0-9427-ff80df5d58f0%2Fabout.jpg?v=1565437956493" width = "545">
+  </div>
+</div>
